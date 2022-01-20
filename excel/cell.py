@@ -7,6 +7,24 @@ from excel.format import number, hex_color
 
 
 class SetStyle:
+    """Set cell styles at once, work with openpyxl worksheet object
+
+    Args:
+      worksheet: openpyxl worksheet object, e.g. Workbook().create_sheet(sheet_name)
+      cell: string, a cell location which is a combination of one or more alphabets and an integer, e.g. "A1"
+      **options: elements to be set in the cell. elements are...
+        font_size: integer-like string, e.g. 11
+        font_bold: boolean
+        font_color: string, hex color code
+        background_color: string, hex color code
+        number_format: string, excel bumber format
+        alignment_hor, alignment_ver: string, e.g. fill, left, distributed, general, center, right...
+        border_top_style, border_bottom_style, border_left_style, border_right_style: string, e.g. thick, thin
+        border_top_color, border_bottom_color, border_left_color, border_right_color: string, hex color code
+
+    Returns:
+      None.
+  """
     def __init__(self, worksheet, cell, **options):
         # working spot info
         self.cell = worksheet[cell]
