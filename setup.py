@@ -11,6 +11,6 @@ setup(
     author="gyungsumin",
     author_email="gyungsumin@gmail.com",
     license="gyungsumin",
-    packages=["openpyxl_custom_use"],
+    packages=["openpyxl_custom_use", "format"],
     install_requires=install_requires
 )
