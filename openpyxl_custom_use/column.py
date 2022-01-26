@@ -4,7 +4,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl_custom_use.format import number, hex_color
 
 
-class ColumnFormat:
+class SetStyle:
     def __init__(self, worksheet, col_idx, **options):
         # working spot info
         self.current_col = worksheet.column_dimensions[get_column_letter(col_idx)]
