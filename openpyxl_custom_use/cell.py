@@ -3,7 +3,7 @@ from openpyxl.styles.borders import Border, Side
 
 from openpyxl.utils import get_column_letter
 
-from excel.format import number, hex_color
+from openpyxl_custom_use.format import number, hex_color
 
 
 class SetStyle:
@@ -17,7 +17,7 @@ class SetStyle:
         font_bold: boolean
         font_color: string, hex color code
         background_color: string, hex color code
-        number_format: string, excel bumber format
+        number_format: string, openpyxl_custom_use bumber format
         alignment_hor, alignment_ver: string, e.g. fill, left, distributed, general, center, right...
         border_top_style, border_bottom_style, border_left_style, border_right_style: string, e.g. thick, thin
         border_top_color, border_bottom_color, border_left_color, border_right_color: string, hex color code

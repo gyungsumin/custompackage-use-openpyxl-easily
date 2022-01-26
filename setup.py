@@ -5,12 +5,12 @@ install_requires = [
 ]
 
 setup(
-    name="excel",
+    name="openpyxl_custom_use",
     version="0.0.1",
     url="https://github.com/gyungsumin/excel.git",
     author="gyungsumin",
     author_email="gyungsumin@gmail.com",
     license="gyungsumin",
-    packages=["excel"],
+    packages=["openpyxl_custom_use"],
     install_requires=install_requires
 )
