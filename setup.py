@@ -7,7 +7,7 @@ install_requires = [
 setup(
     name="openpyxl_custom_use",
     version="0.0.1",
-    url="https://github.com/gyungsumin/excel.git",
+    url="https://github.com/gyungsumin/custompackage-use-openpyxl-easily.git",
     author="gyungsumin",
     author_email="gyungsumin@gmail.com",
     license="gyungsumin",
