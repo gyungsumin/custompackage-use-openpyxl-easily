@@ -1,8 +1,6 @@
 from openpyxl.styles import Alignment, PatternFill, Font
 from openpyxl.styles.borders import Border, Side
 
-from openpyxl.utils import get_column_letter
-
 from openpyxl_custom_use.format import number, hex_color
 
 
