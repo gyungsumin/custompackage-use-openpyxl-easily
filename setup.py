@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 install_requires = [
     "openpyxl==3.0.5"
@@ -11,6 +11,6 @@ setup(
     author="gyungsumin",
     author_email="gyungsumin@gmail.com",
     license="gyungsumin",
-    packages=["openpyxl_custom_use"],
+    packages=find_packages(),
     install_requires=install_requires
 )
